@@ -10,10 +10,10 @@ module.exports = {
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: 'gy110708',
+        pass: '',
         char: 'utf8mb4'
     },
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    tunnelSignatureKey: '',
     tunnelHostLocation: 'localhost',
-    tunnelUser : 'gongyi:123456;u2:p2',
+    tunnelUser : '',
 };
