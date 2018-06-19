@@ -3,10 +3,10 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
-    appId: 'wx84be17593fa77bef',
+    appId: '',
 
     // 微信小程序 App Secret
-    appSecret: 'd0d9fffee19e3f2b5bc4d0a905086488',
+    appSecret: '',
 
 
     /**
@@ -19,12 +19,12 @@ const CONF = {
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: 'gy110708',
+        pass: '',
         char: 'utf8mb4'
     },
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-    tunnelHostLocation: 'tunnel.ytx.com',
-    tunnelUser : 'gongyi:123456;u2:p2',
+    tunnelSignatureKey: '',
+    tunnelHostLocation: '',
+    tunnelUser : '',
 };
 
 module.exports = process.env.NODE_ENV === 'local' ? Object.assign({}, CONF, require('./config.local')) : CONF;
